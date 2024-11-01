@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         {% block title %}
-           Django Title if Nothinng is Provided 
+           Django App
         {% endblock %}
     </title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -19,7 +19,8 @@
         <a href="/posts"> 📜Posts</a> 
     </nav>
     <main>
-        {% block content %}{% endblock content %}
+        {% block content %}
+        {% endblock %}
     </main>
 
 </body>
